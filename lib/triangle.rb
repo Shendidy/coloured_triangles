@@ -18,7 +18,7 @@ class Triangle
     return arr2[0] unless arr2[0] != arr2[1]
     if arr2.include? "G"
       return "R" if arr2.include? "B"
-      return "B" if arr2.include? "R"
+      return "B"
     else
       return "G"
     end
